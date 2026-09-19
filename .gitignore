@@ -1,0 +1,9 @@
+# Prithvi 사전학습 가중치 (대용량, HuggingFace에서 재다운로드 가능)
+models/prithvi/
+
+# 학습 체크포인트
+checkpoints/
+
+# Python
+__pycache__/
+*.pyc

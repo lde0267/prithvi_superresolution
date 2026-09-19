@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 dd2197a7c2a1f00d25505b0a652e32a6eae04619 lde0267 <hellomua98@gmail.com> 1789794526 +0900	clone: from https://github.com/kbs0215/K3A_S2_MTF.git
+dd2197a7c2a1f00d25505b0a652e32a6eae04619 9c1ff25b4abf51367cec47ae51fe4138dd54d26a lde0267 <hellomua98@gmail.com> 1789800201 +0900	commit: refactor: 원본 다운로드/정합 단계 제거, 이미 정합된 데이터로 시작하도록 재구성
+9c1ff25b4abf51367cec47ae51fe4138dd54d26a 54161422a611337d4ff6007757ba12d4b117ce55 lde0267 <hellomua98@gmail.com> 1789800215 +0900	commit (amend): refactor: 원본 다운로드/정합 단계 제거, 이미 정합된 데이터로 시작하도록 재구성
+54161422a611337d4ff6007757ba12d4b117ce55 9b84db9b667b60ec728dbfa24c2290e17e68815b lde0267 <hellomua98@gmail.com> 1789803137 +0900	commit: refactor: 시각화/비교 데모 모듈 및 미사용 문서 제거, 단일 모듈 구조로 정리
+9b84db9b667b60ec728dbfa24c2290e17e68815b 4e0361b0f37bd42d65e0d22150a2cd8ed9c964fe lde0267 <hellomua98@gmail.com> 1789803148 +0900	commit (amend): refactor: 시각화/비교 데모 모듈 및 미사용 문서 제거, 단일 모듈 구조로 정리

@@ -1,0 +1,33 @@
+# 환경 변수 (API 키, 비밀번호)
+.env
+
+# 데이터 디렉토리 (대용량 위성 영상) — 파이프라인 산출물은 제외, 예시 샘플 데이터는 포함
+data/*
+!data/examples/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Large Files & Heavy Outputs
+*.pth
+module5_SR_comparison/output/
+

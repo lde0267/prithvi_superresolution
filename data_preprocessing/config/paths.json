@@ -1,0 +1,8 @@
+{
+    "_comment": "데이터 경로 설정 - 절대 경로 금지, 상대 경로 또는 환경 변수 사용",
+    "examples_dir": "data/examples",
+    "output_dir": "data/output",
+    "rad_sim_dir": "data/output/rad_sim",
+    "mtf_sim_dir": "data/output/mtf_sim",
+    "chips_dir": "data/output/chips"
+}
