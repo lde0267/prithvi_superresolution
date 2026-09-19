@@ -4,7 +4,7 @@
 
 ### KOMPSAT-3A → Sentinel-2 초해상화(Super-Resolution) 전체 파이프라인
 
-**KOMPSAT-3A 고해상도 위성영상을 Sentinel-2 방사 특성으로 모사한 학습 데이터를 만들고, NASA/IBM의 Prithvi-EO-2.0 파운데이션 모델을 LoRA로 파인튜닝해 초해상화 모델을 학습시키는 프로젝트입니다.**
+**KOMPSAT-3A 고해상도 위성영상을 Sentinel-2 방사 특성으로 모사한 학습 데이터를 만들고, NASA/IBM의 Prithvi-EO-2.0 파운데이션 모델을 LoRA로 파인튜닝해 초해상화 모델을 학습시키는 프로젝트입니다. 더 자세한 사항은 제시된 논문과 발표자료를 참고하세요.**
 
 </div>
 
