@@ -89,7 +89,7 @@ python models/evaluate.py --visualize 3
 
 ---
 
-## 📦 현재 상태 (2026-09-19)
+## 📦 현재 상테
 
 ### 데이터 전처리 (`data_preprocessing/`)
 - 예시 3페어(`kompsat1~3`)로 방사모사 → MTF모사 → 칩추출 전체 파이프라인 검증 완료 (3/3 성공)
@@ -116,7 +116,7 @@ python models/evaluate.py --visualize 3
 ### 알려진 제약
 - GPU 없이 CPU로는 300M 파라미터 모델 특성상 배치 1개 forward+backward에도 수 분이 걸립니다. 실제 200 에폭 학습은 GPU 환경을 권장합니다.
 - 테스트 분할이 현재 0개(칩 3개뿐)라 `evaluate.py`가 실제로 평가할 샘플이 없습니다 — 더 많은 페어가 있어야 의미 있는 지표가 나옵니다.
-
+- 원본 데이터는 공개되지 않습니다.
 ---
 
 ## 🙏 출처
