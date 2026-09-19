@@ -34,16 +34,16 @@ PrithviSR/
 
 ```mermaid
 flowchart LR
-    E[("data_preprocessing/data/examples/<br/>kompsat{N}.tif + sentinel{N}.tif")] --> S1[방사모사<br/>IR-MAD]
-    S1 --> S2[MTF모사<br/>Gaussian σ]
-    S2 --> S3[칩 추출]
+    E[("data_preprocessing/data/examples/<br/>kompsat{N}.tif + sentinel{N}.tif")] --> S1["방사모사<br/>IR-MAD"]
+    S1 --> S2["MTF모사<br/>Gaussian σ"]
+    S2 --> S3["칩 추출"]
     S3 --> C[("data_preprocessing/data/output/chips/<br/>{base}_hr.tif + {base}_lr.tif")]
-    C --> D[models/dataset.py<br/>KOMPSATSRDataset]
-    P[("models/prithvi/<br/>Prithvi_EO_V2_300M_TL.pt")] --> M[models/architecture.py<br/>Prithvi 인코더(LoRA) + SR 디코더]
-    D --> T[models/train.py]
+    C --> D["models/dataset.py<br/>KOMPSATSRDataset"]
+    P[("models/prithvi/<br/>Prithvi_EO_V2_300M_TL.pt")] --> M["models/architecture.py<br/>Prithvi 인코더(LoRA) + SR 디코더"]
+    D --> T["models/train.py"]
     M --> T
     T --> CK[("checkpoints/<br/>best_sr_model.pth")]
-    CK --> V[models/evaluate.py<br/>PSNR/SSIM/SAM/Edge vs Bicubic]
+    CK --> V["models/evaluate.py<br/>PSNR/SSIM/SAM/Edge vs Bicubic"]
     D -.-> V
 
     style E fill:#fffde7,stroke:#fbc02d
